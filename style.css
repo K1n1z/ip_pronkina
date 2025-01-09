@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "ComicReliefBold";
+}
+
+@font-face {
+    scr: url("/fonts/ComicReliefBold.otf");
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+}
+
+.two{
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one_text {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position :lative;
+}
+
+
+.plus_text_one {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.plus_text_two {
+    text-align: center;
+    font-size: 30px;
+}
+
+.regk {
+	background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 7px 7px 7px 7px;
+}
+
+.regk:hover {
+	background-color: black;
+    color: white;
+}
+.regk:active {
+	background-color: black;
+    color: white;
+}
+
+
+regb{
+	background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 7px 7px 7px 7px;
+}
+.regb a {
+    text-decoration: none;
+    color: black;
+}
+.regb a:active {
+    text-decoration: none;
+    color: white;
+}
+.regb a:hover {
+    text-decoration: none;
+    color: white;
+}
+.regb:hover {
+	background-color: black;
+    color: white;
+}
+.regb:active {
+	background-color: black;
+    color: white;
+}
+
+
+.forms {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.probel {
+    padding-bottom: 60px;
+}
+.invisible {
+    display: none;
+}
+
+.reg_text{
+    padding-bottom: 5px;
+    display: flex;
+}
+.formar{
+    padding-bottom: 20px;
+}
+.forma {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+.formb {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.form_cont {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.regs {
+    padding-top: 50px;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+
+.lkk {
+    display: flex;
+}
+
+.lkss {
+    display: flex;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.lks_text {
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 25px;
+}
+.lks_info {
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 25px;
+}
+.lk_form {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lka {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.lka:hover {
+    text-decoration: none;
+    color: silver;
+}
+.zak {
+    display: flex;
+    flex-direction: column;
+}
+.zaks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.pod {
+    display: flex;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+
+.bb{
+    background-color: red;
+    width: 70px;
+    height: 70px;
+}
+.ss{
+    background-color: yellow;
+    width: 70px;
+    height: 70px;
+}
+.dd{
+    display: flex;
+}
+
+
+.key_exit {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.services_info {
+    display: flex;
+    font-size: 25px;
+    padding-top: 40px;
+    justify-content: center;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.services_text {
+    display: flex;
+    text-align: center;
+}
+
+
+.users {
+    display: flex;
+    font-size: 35px;
+    text-align: center;
+    text-weight: bold;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px
+}
+.users_text {
+    display: flex;
+    font-size: 25px;
+}
+.users_cont {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+.users_wrapper {
+    display: flex;
+}
+
+.reg_textgg {
+    display: flex;
+    justify-content: center;
+}
+.otstyp{
+    padding-left:5px;
+}
+
+
+@media screen and (min-width: 1050px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+
+    .one {
+        width: 100%;
+        height: 1000px;
+        background: url(image/index.jpg) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about_us {
+        width: 100%;
+        height: 1000px;
+        background: url(image/about_us.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contacts {
+        width: 100%;
+        height: 1000px;
+        background: url(image/contacts.jpg) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .news {
+        width: 100%;
+        height: 1000px;
+        background: url(image/news.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .services {
+        width: 100%;
+        height: 1000px;
+        background: url(image/ss.jpg) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .lk {
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    .lk_text {
+        padding-bottom: 10px;
+        display: flex;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .lk_texts {
+        display: flex;
+        font-size: 25px;
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .lks {
+        display: flex;
+        font-size: 25px;
+    }
+
+    .regg{
+        width: 250px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 17px;
+        box-sizing: border-box;
+        resize: none
+    }
+    .reg{
+        width: 245px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 17px;
+    }
+
+    .formr {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+    .logo_text {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    .logo_text a {
+        text-decoration: none;
+        color:black;
+    }
+    .logo_text a:hover {
+        text-decoration: none;
+        color:silver;
+    }
+
+
+    .menu {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .menu a {
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .menu a:hover {
+        text-decoration: none;
+        color: silver;
+    }
+
+
+    .private {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .private a {
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .private a:hover {
+        text-decoration: none;
+        color: silver;
+    }
+
+
+    .containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .warp {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 70px;
+        background-color: #DCDCDC;
+    }
+    .warp_about {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .warp_text_about {
+        text-align: center;
+        font-size: 30px;
+        width: 850px;
+    }
+
+
+    .plus {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .plus_cont {
+        display: flex;
+        width: 400px;
+        padding-bottom: 30px;
+    }
+    .plus_icon {
+        display: flex;
+    }
+    .plus_text {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        font-family: 
+    }
+    .plus_zag {
+        font-weight: bold;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .plus_opis {
+        font-size: 22px;
+    }
+    .plus_info {
+        padding-top: 40px;
+        padding-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper_cont {
+        display: flex;
+        width: 450px;
+        padding-bottom: 30px;
+    }
+
+
+    .cont_news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .newss {
+        display: flex;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gtext_news {
+        display: flex;
+        text-weight: bold;
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .text_news {
+        display: flex;
+        font-size: 25px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .text_uslugi {
+        display: flex;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    footer {
+        display: flex;
+        background: black;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+    footer a {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    footer a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    .info_footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .prav_footer {
+        padding-top: 40px;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
